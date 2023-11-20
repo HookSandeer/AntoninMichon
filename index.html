@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="./src/icons/icone.png">
+    <script src="script/script.js"></script>
+    <title>Antonin Michon</title>
+</head>
+<body>
+    <header>
+        <h3 class="title">Curriculum Vitae</h3>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./exp.html">Expériences</a></li>
+                <li><a href="./about.html" title="I introduce myself in a short video">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main" id="top">
+
+        <div id="left-panel">
+            <div class="top-content">
+                <h4>Antonin<br>Michon</h4>
+                <p class="subInfo">
+                    Réseaux & Télécommunications<br>
+                    Apprenti 1<sup>ère</sup> année, à la<br>
+                    <a class="subInfo" title="Ouvir le site de la DIRISI" href="https://www.defense.gouv.fr/dirisi" target="_blank">DIRISI/CIRISI Besançon</a>
+                </p>
+
+                <button id="fixed-button" class="next-button" onclick="scrollToNextScreen()">Suivant</button>
+
+                <div class="content">
+
+                    <h5 class="title-paragraph" id="content-pointer1">
+                        A propos :
+                    </h5>
+                    <p>
+                        J'ai 18 ans et je suis apprenti au ministère des armées en BUT réseaux et télécommunications.<br><br>J'exerce en tant que BNSSA les weekends et je suis aussi chef de la musique municipale de Dole pour les commémorations.
+                    </p>
+
+                    
+
+                    <h5 class="title-paragraph" id="content-pointer2">
+                        Intérêts :
+                    </h5>
+                    <p>
+                        J'aime beaucoup les nouvelles technologies et je développe depuis quelque temps et je m'interesse beaucoup aux systèmes d'informations.<br><br>Mon dernier projet est un générateur d'ASCII Art !<br>Il est disponible <a target="_blank" href="https://hooksandeer.github.io/Antonin-ASCII-Art/">ici.</a>
+                    </p>
+
+                    <h5 class="title-paragraph" id="content-pointer3">
+                        Musique :
+                    </h5>
+                    <p>
+                        Je joue de l'Euphonium depuis que je suis petit, et j'ai obtenu récemment mon DEM (Diplôme études musicales)<br>
+                        Vous pouvez écouter un extrait juste en dessous, lors d'un concert avec un ami qui fait des percussions.
+                    </p>
+                    <audio controls>
+                        <source src="./src/song/euphonium.mp3" type="audio/mp3">
+                    </audio>
+
+                    <h5 class="title-paragraph" id="content-pointer4">
+                        En bref :
+                    </h5>
+                    <p>
+                        Ce site est un online CV. La page <a href="./about.html">About</a> est en anglais est contient une vidéo de présentation ainsi que le CV en pdf. <br>La page <a href="./exp.html">Expériences</a> énumère mon parcours scolaire et professionel et la <br>page <a href="./contact.html">contact </a>contient mes coordonnées.<br>Vous pouvez télécharger mon CV avec <a href="https://drive.google.com/file/d/11qZSygFjZ7tfR5K5Wzu-YRQ_aKPswIiT/view?usp=sharing">ce lien .</a>
+                    </p>
+                </div>
+            </div>
+            <button id="topButton" class="top-button" onclick="scrollToTop()" >↑</button>
+        </div>
+
+
+        <div id="right-panel">
+            <img src="src/pictures/PHOTO.jpg" alt="" id="background-picture">
+            <!--SOURCE : Robert CONTET; Tubazik sur Instagram (https://www.instagram.com/tubazikk/)-->
+            <div id="image-support">
+                <figure>
+                    <img class="picture" src="src/pictures/FTTH.jpg" alt="Maquette FTTH">
+                    <!--SOURCE : Antonin Michon (Photo que j'ai prise)-->
+                    <figcaption>Maquette FTTH</figcaption>
+                </figure>
+                <figure>
+                    <img class="picture" src="src/pictures/soudure.jpg" alt="Soudure fibre">
+                    <!--SOURCE : Antonin Michon (Photo que j'ai prise)-->
+                    <figcaption>Soudure sur Fibre</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

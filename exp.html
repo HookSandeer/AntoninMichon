@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script/script.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="./src/icons/icone.png">
+    <title>Antonin Michon</title>
+</head>
+<body>
+    <header>
+        <h3 class="title">Expériences</h3>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./exp.html">Expériences</a></li>
+                <li><a href="./about.html" title="I introduce myself in a short video">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main" id="top">
+        <div id="left-panel">
+            <div class="top-content">
+                <h4 style="font-size: 80px;">Expériences & Parcours</h4>
+                <div class="subInfo">
+                    <h4>Sommaire :</h4>
+                    <ul>
+                        <li class="menu">
+                            Scolarité
+                            <ul class="sub-menu">
+                                <li><a href="#content-pointer1" style="color: white;">Secondaire</a></li>
+                                <li><a href="#content-pointer2" style="color: white;">Supérieur</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#content-pointer3" style="color: white;">Parcours Professionel</a></li>
+                    </ul>
+                </div>
+
+                <button id="fixed-button" class="next-button" onclick="scrollToNextScreen()">Suivant</button>
+
+                <div class="content">
+
+                    <h5 class="title-paragraph" id="content-pointer1">
+                        Secondaire :
+                    </h5>
+                    <ul>
+                        <li>2020 : Obtention du Brevet national des Collège mention Bien, au Collège de l'Arc à Dole.</li>
+                        <li>2023 : Obtention du BAC, spécialités Mathématiques et Informatique (NSI), avc mention, au Lycée Charle Nodier à Dole.</li>
+                    </ul>
+
+                    
+
+                    <h5 class="title-paragraph" id="content-pointer2">
+                        Supérieur :
+                    </h5>
+                    <p>
+                        2023 ~ : BUT Réseaux & Télécommunication en Apprentissage à la DIRISI/CIRISI Besançon,<br> à l'IUT Nord-Franche-Comté, antenne de Montbéliard.
+                    </p>
+
+                    <h5 class="title-paragraph" id="content-pointer3">
+                        Parcours Pro :
+                    </h5>
+                    <ul>
+                        <li>Stage de 3<sup>ème</sup>chez <a href="https://www.signes-distinctifs.fr/" target="_blank">Signes distinctifs</a></li>
+                        <li>2023 : CDI Temps partiel chez <a href="https://www.granddoleaquatique.fr/espacepierretalagrand/" target="_blank">Equalia</a> en tant que Maitre Nageur (BNSSA)</li>
+                        <li>2023 - 2026 : Apprenti à la DIRISI/CIRISI Besançon (Ministère des armées) en tant qu'alternant.</li>
+                    </ul>
+                </div>
+                <button id="topButton" class="top-button" onclick="scrollToTop()" >↑</button>
+            </div>
+        </div>
+        <div id="right-panel">
+            <img src="src/pictures/PHOTO.jpg" alt="" id="background-picture">
+            <div id="image-support">
+                <figure>
+                    <img class="picture" src="src/pictures/equalia.png" alt="Logo Equalia">
+                    <!--Site internet Equalia (https://www.equalia.fr/)-->
+                    <figcaption>Logo Equalia</figcaption>
+                </figure>
+                <figure>
+                    <img class="picture" src="src/pictures/armée.png" alt="Logo DIRISI">
+                    <!--Wikipedia : https://commons.wikimedia.org/wiki/File:Logo_de_la_direction_interarm%C3%A9es_des_r%C3%A9seaux_d%27infrastructure_et_des_syst%C3%A8mes_d%27informations_de_la_d%C3%A9fense_(DIRISI).svg-->
+                    <!--Licence : Ministère des Armées / Vector graphic : Futurhit12, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons-->
+                    <figcaption>Logo DIRISI</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    
+</body>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/script.js"></script>
+    <link rel="icon" href="./src/icons/icone.png">
+    <link rel="stylesheet" href="style/style.css">
+    <title>About me</title>
+</head>
+<body>
+    <header>
+        <h3 class="title">About</h3>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./exp.html">Expériences</a></li>
+                <li><a href="./about.html" title="I introduce myself in a short video">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main" id="top">
+        <div id="left-panel">
+            <div class="top-content">
+                <h4>Welcome</h4>
+                <p class="subInfo">
+                    Network & Telecom<br>
+                    First-year Apprentice at the<br>
+                    <a class="subInfo" title="Open the Dirisi Website" href="https://www.defense.gouv.fr/dirisi" target="_blank">DIRISI/CIRISI Besançon</a>
+                </p>
+
+                <button id="fixed-button" class="next-button" onclick="scrollToNextScreen()">Next</button>
+
+                <div class="content">
+
+                    <h5 class="title-paragraph" id="content-pointer1">
+                        Who am I ? :
+                    </h5>
+                    <p>
+                        I'm 18 and I work at the French ministry of the Army as an apprantice. I'm doing a Bachelor's in Networks and Telecoms<br>
+                        <br>I work at the pool as a Lifeguard on the weekends, and I am also the head of the municipal music in Dole.
+                    </p>
+
+                    
+
+                    <h5 class="title-paragraph" id="content-pointer2">
+                        Hobbies :
+                    </h5>
+                    <p>
+                        I really like new technologies, and I have been developing for a while now. I am very interested in information systems.<br><br>My latest project is an ASCII Art generator!<br>It is available <a target="_blank" href="https://hooksandeer.github.io/Antonin-ASCII-Art/">Here !</a>
+                    </p>
+
+                    <h5 class="title-paragraph" id="content-pointer3">
+                        Music :
+                    </h5>
+                    <p>
+                        I play Euphonium since I was young, and I obtained my music studies diploma.<br>
+                        You can listen an exract here, of a concert with one of my friend who's playing drums.
+                    </p>
+                    <audio controls>
+                        <source src="./src/song/euphonium.mp3">
+                        <!--Audio enregistré par un ami-->
+                    </audio>
+
+                    <h5 class="title-paragraph" id="content-pointer4">
+                        Summary :
+                    </h5>
+                    <p>
+                        This website is an online CV. All the other page are in French. You can be in touch with me with the <a href="./contact.html">contact</a> page.<br>You can download my cv by <a href="https://drive.google.com/file/d/11qZSygFjZ7tfR5K5Wzu-YRQ_aKPswIiT/view?usp=sharing">this link.</a>
+                    </p>
+                </div>
+            </div>
+            <button id="topButton" class="top-button" onclick="scrollToTop()" >↑</button>
+
+        </div>
+        <div id="right-panel">
+            <img src="src/pictures/PHOTO.jpg" alt="Photo arrière plan" id="background-picture">
+            <div class="video">
+                <video controls id="video">
+                    <source src="./src/video/presentation.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
